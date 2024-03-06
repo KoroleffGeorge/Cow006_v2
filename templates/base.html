@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>
+    {% block title%}
+         Шапку не подвезли 😦
+    {% endblock %}
+   </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+
+  <body>
+    <header>
+      {% include 'includes/header.html' %}
+    </header>
+    <main>
+      {% block content %}
+        <h1> Контент не подвезли:( </h1>
+      {% endblock %}
+    </main>
+    <footer>
+      {% block footer %}
+        {% include 'includes/footer.html' %}
+      {% endblock %}
+    </footer>
+  </body>
+</html>

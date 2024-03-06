@@ -1,0 +1,12 @@
+{% extends "base.html" %} 
+{% block title %}Главная{% endblock %} 
+{% block content %} 
+<div class="container py-5"> 
+  <form method="post"> 
+    {% csrf_token %} 
+     <div class="text-center" style="display: flex; justify-content: center; align-items: center; height: 100vh;"> 
+       <a href="{% url 'game:play' %}" style="font-size: 40px; font-weight: bold;text-decoration: none">Start Game</a> 
+     </div> 
+  </form> 
+</div> 
+{% endblock %}
