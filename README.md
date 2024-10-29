@@ -33,8 +33,7 @@
 #### Инструкция по установке: 
 
 `git clone https://github.com/KoroleffGeorge/Cow006_v2.git`
-
-`cd Cow006_v2` 
+`cd Cow006_v2`
 `python -m venv venv`
 `source venv/Scripts/activate` - для windows
 `source venv/bin/activate` - для linux
