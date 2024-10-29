@@ -32,11 +32,11 @@
 
 #### Инструкция по установке: 
 
-git clone https://github.com/KoroleffGeorge/Cow006_v2.git 
-cd Cow006_v2 
-python -m venv venv
-source venv/Scripts/activate - для windows
-source venv/bin/activate - для linux
-pip install -r requirements.txt 
-python manage.py runserver 
-В адресной строке набрать http://127.0.0.1:8000/
+`git clone https://github.com/KoroleffGeorge/Cow006_v2.git`
+`cd Cow006_v2` 
+`python -m venv venv`
+`source venv/Scripts/activate` - для windows
+`source venv/bin/activate` - для linux
+`pip install -r requirements.txt` 
+`python manage.py runserver`
+В адресной строке набрать `http://127.0.0.1:8000/`
